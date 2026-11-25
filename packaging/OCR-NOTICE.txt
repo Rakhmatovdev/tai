@@ -1,0 +1,16 @@
+Optional local OCR runtime
+
+Tesseract 5.4.0 Windows build provided by Universitaetsbibliothek Mannheim:
+https://github.com/UB-Mannheim/tesseract
+https://github.com/UB-Mannheim/tesseract/releases/tag/v5.4.0.20240606
+Installer SHA256: c885fff6998e0608ba4bb8ab51436e1c6775c2bafc2559a19b423e18678b60c9
+Tesseract is licensed under Apache License 2.0.
+https://www.apache.org/licenses/LICENSE-2.0
+
+Uzbek, Uzbek Cyrillic and Russian recognition data:
+https://github.com/tesseract-ocr/tessdata_fast
+English and orientation recognition data are from the Mannheim distribution.
+See upstream distributions for the licenses of Leptonica and the accompanying DLLs.
+
+The runtime was extracted without running the system installer. It is discovered
+locally by Brave; it never downloads recognition data during OCR inference.

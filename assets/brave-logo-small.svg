@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#292c36"/>
+      <stop offset="1" stop-color="#111217"/>
+    </linearGradient>
+    <linearGradient id="copper" gradientUnits="userSpaceOnUse" x1="56" y1="36" x2="200" y2="220">
+      <stop stop-color="#ffdcaf"/>
+      <stop offset=".46" stop-color="#ffa46b"/>
+      <stop offset="1" stop-color="#e3653e"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#surface)"/>
+  <rect x="8.75" y="8.75" width="238.5" height="238.5" rx="59.25" fill="none" stroke="#41434e" stroke-width="2"/>
+  <path fill="url(#copper)" d="M128 36L204 68L128 100L52 68L128 36Z"/>
+  <path fill="url(#copper)" d="M64 92L115 113V196C115 203 121 209 128 209C135 209 141 203 141 196V113L192 92V118L145 137V196C145 205 137 213 128 213C119 213 111 205 111 196V137L64 118V92Z"/>
+  <rect x="64" y="138" width="16" height="44" rx="8" fill="url(#copper)"/>
+  <rect x="176" y="138" width="16" height="44" rx="8" fill="url(#copper)"/>
+</svg>

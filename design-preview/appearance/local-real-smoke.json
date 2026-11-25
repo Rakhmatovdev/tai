@@ -1,0 +1,96 @@
+{
+  "ocr": {
+    "image": "Budjet: 42. Muddat: Dushanba.",
+    "scan_pdf": "Budjet: 42. Muddat: Dushanba."
+  },
+  "semantic": {
+    "passed": true,
+    "elapsed_s": 0.5,
+    "chunks": 2
+  },
+  "schema": {
+    "passed": true,
+    "metrics": {
+      "model": "llama3.2",
+      "profile": "economy",
+      "residency": "not_loaded",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "server_version": "0.33.2",
+      "context_length": 2048,
+      "thinking": null,
+      "first_reply_s": 1.7810000000026776,
+      "total_s": 1.916089,
+      "load_s": 1.6416006,
+      "prompt_eval_s": 0.077662,
+      "eval_s": 0.185427,
+      "prompt_eval_count": 48,
+      "eval_count": 17,
+      "tokens_per_second": 91.68028388530257,
+      "done_reason": "stop",
+      "status": "completed",
+      "request_s": 1.9689999999973224
+    }
+  },
+  "tools": {
+    "passed": true,
+    "calls": [
+      "calculate"
+    ],
+    "metrics": {
+      "model": "llama3.2",
+      "profile": "economy",
+      "residency": "not_loaded",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "server_version": "0.33.2",
+      "context_length": 2048,
+      "thinking": null,
+      "total_s": 0.2515528,
+      "load_s": 0.0106916,
+      "prompt_eval_s": 0.021586,
+      "eval_s": 0.198981,
+      "prompt_eval_count": 120,
+      "eval_count": 21,
+      "tokens_per_second": 105.53771465617321,
+      "done_reason": "stop",
+      "first_reply_s": 2.0930000000080327,
+      "status": "completed",
+      "request_s": 2.297000000005937
+    }
+  },
+  "vision": {
+    "passed": true,
+    "answer": "42",
+    "metrics": {
+      "model": "gemma4:12b",
+      "profile": "economy",
+      "residency": "not_loaded",
+      "capabilities": [
+        "completion",
+        "vision",
+        "audio",
+        "tools",
+        "thinking"
+      ],
+      "server_version": "0.33.2",
+      "context_length": 2048,
+      "thinking": null,
+      "first_reply_s": 96.65600000000268,
+      "total_s": 96.7417311,
+      "load_s": 55.2395605,
+      "prompt_eval_s": 27.26769,
+      "eval_s": 14.213851,
+      "prompt_eval_count": 116,
+      "eval_count": 128,
+      "tokens_per_second": 9.005300533965073,
+      "done_reason": "stop",
+      "status": "completed",
+      "request_s": 96.7960000000021
+    }
+  }
+}

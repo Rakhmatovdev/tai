@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#292c36"/>
+      <stop offset="1" stop-color="#111217"/>
+    </linearGradient>
+    <linearGradient id="copper" gradientUnits="userSpaceOnUse" x1="56" y1="36" x2="200" y2="220">
+      <stop stop-color="#ffdcaf"/>
+      <stop offset=".46" stop-color="#ffa46b"/>
+      <stop offset="1" stop-color="#e3653e"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#surface)"/>
+  <rect x="8.75" y="8.75" width="238.5" height="238.5" rx="59.25" fill="none" stroke="#41434e" stroke-width="2"/>
+  <!-- Outer subtle academic ring -->
+  <circle cx="128" cy="128" r="94" fill="none" stroke="#41434e" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <!-- Professor Graduation Mortarboard Crown -->
+  <path fill="url(#copper)" d="M128 36L204 68L128 100L52 68L128 36Z"/>
+  <!-- Tassel & AI Spark -->
+  <path fill="url(#copper)" d="M192 74V106C192 111 196 115 201 115C206 115 210 111 210 106V70L192 74Z"/>
+  <!-- Bold 'T' Crossbar + Open Book Wings + Central Pillar -->
+  <path fill="url(#copper)" d="M64 92L115 113V192C115 199 121 205 128 205C135 205 141 199 141 192V113L192 92V116L145 135V192C145 201 137 209 128 209C119 209 111 201 111 192V135L64 116V92Z"/>
+  <!-- Language / Speech Wave Bars (Left & Right) -->
+  <rect x="46" y="130" width="12" height="36" rx="6" fill="url(#copper)"/>
+  <rect x="70" y="140" width="12" height="44" rx="6" fill="url(#copper)"/>
+  <rect x="174" y="140" width="12" height="44" rx="6" fill="url(#copper)"/>
+  <rect x="198" y="130" width="12" height="36" rx="6" fill="url(#copper)"/>
+  <!-- Base Academic Pedestal Arc -->
+  <path fill="url(#copper)" d="M86 212C100 220 114 224 128 224C142 224 156 220 170 212L162 202C151 208 140 211 128 211C116 211 105 208 94 202L86 212Z"/>
+</svg>
